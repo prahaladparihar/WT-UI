@@ -1,0 +1,76 @@
+body{
+    margin: 10px;
+    background-image: url("/img/img_login.jpg");
+    background-size: cover;
+}
+nav{
+    box-shadow: 0px 3px 19px 2px gray;
+    border-radius:  0px 0px 15px 15px;
+}
+.navbar{
+    border-bottom: greenyellow solid 3px;
+}    
+.box{
+    margin-top:140px;
+    text-align:center;
+    width: 350px;
+    height: auto;
+    background-color: #00000056;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow:  inset 0px 0px 10px 3px white;
+}
+.box p{
+    margin: 15px;
+    padding: 0px;
+    font-weight: bold;
+    float: left;
+}
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.box input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;   
+    background: transparent;
+    outline: none; 
+}
+.box input[type="text"],input[type="password"]:focus{
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;   
+    background: transparent;
+    outline: none; 
+}
+.box button[type="submit"]{
+    border: none;
+    outline: none;
+    border-radius: 100px; 
+    width:85%;
+    background-size: 300%;
+
+   
+}
+.box button[type="submit"]:hover{
+    background: rgb(0, 255, 200);
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+    color: white;
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+hr{
+    width: 2px;
+    height: 20px;
+    background: lime;
+    border-radius:0.3px;
+}
